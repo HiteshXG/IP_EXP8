@@ -7,7 +7,7 @@ const App = () => {
 
   const handleReadFile = async () => {
     try {
-      const response = await fetch("https://ip-exp-8-q0m9msm5x-mao-shi-chigamks-projects.vercel.app/read-file");
+      const response = await fetch("http://ip-exp-8-q0m9msm5x-mao-shi-chigamks-projects.vercel.app/read-file");
       const data = await response.json();
       setFileContent(data.content);
     } catch (error) {
