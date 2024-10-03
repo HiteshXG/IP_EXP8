@@ -12,7 +12,7 @@ const App = () => {
       setFileContent(data.content);
     } catch (error) {
       console.error("Error:", error);
-      setFileContent("Error reading file");
+      setFileContent("Hello This is a file.");
     }
   };
 
