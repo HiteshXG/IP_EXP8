@@ -1,0 +1,10 @@
+This is a Text file.
+
+(Which is already in the node js for demonstration purpose)
+
+Reading using node js.
+
+Here is Quote by a famous artist :
+
+"For a dreamer, nights the only time of day." 
+~ The Weekend
