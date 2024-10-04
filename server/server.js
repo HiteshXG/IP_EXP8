@@ -5,7 +5,7 @@ const path = require("path");
 const PORT = 3001; // Using 3001 as Create React App typically uses 3000
 
 const server = http.createServer(async (req, res) => {
-  res.setHeader("Access-Control-Allow-Origin", "https://ip-exp-8-8qke.vercel.app/");
+  res.setHeader("Access-Control-Allow-Origin", "*");
 
   if (req.url === "/read-file" && req.method === "GET") {
     try {
